@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<properties resource="database.properties"></properties>
+	<typeAliases>
+		<!--<typeAlias type="com.jkk.entity.User" alias="user"/> -->
+		<package name="com.gaze.entity" />
+		<package name="com.gaze.dao" />
+	</typeAliases>
+</configuration>
